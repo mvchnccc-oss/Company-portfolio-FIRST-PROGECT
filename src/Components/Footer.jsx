@@ -82,11 +82,14 @@ export default function Footer() {
 
           {/* Links */}
           <ul className="flex gap-6 text-sm uppercase tracking-wide">
-            {["Home", "Prouduct", "Projects", "Contact"].map((item) => (
+            {["Home", "Product", "Projects", "Contact"].map((item) => (
               <li key={item}>
                 <NavLink
-                  className="hover:text-[#ff7700] transition"
                   to={`/${item.toLowerCase()}`}
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: "smooth" })
+                  }
+                  className="hover:text-[#ff7700] transition"
                 >
                   {item}
                 </NavLink>
@@ -97,7 +100,13 @@ export default function Footer() {
           {/* Social */}
           <div className="flex gap-3 justify-center md:justify-end">
             {[FaFacebookF, FaLinkedinIn, FaInstagram].map((Icon, i) => (
-              <a key={i} href="#" className="w-10 h-10 border border-[#ff7700] flex items-center justify-center rounded-lg hover:bg-[#ff7700] hover:text-black transition"><Icon /></a>
+              <a
+                key={i}
+                href="#"
+                className="w-10 h-10 border border-[#ff7700] flex items-center justify-center rounded-lg hover:bg-[#ff7700] hover:text-black transition"
+              >
+                <Icon />
+              </a>
             ))}
           </div>
         </div>

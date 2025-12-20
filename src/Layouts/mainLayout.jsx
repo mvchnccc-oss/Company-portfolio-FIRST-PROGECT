@@ -2,14 +2,14 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import useScrollRestore from "../Data/useScrollRestore";
+import ScrollToTop from "../Components/ScrollToTop";
 
 export default function MainLayout() {
- useScrollRestore();
   return (
     
     <>
       <Navbar />
+      <ScrollToTop />
       <main className="md:pt-22 pt-20">
         <Outlet />
       </main>
