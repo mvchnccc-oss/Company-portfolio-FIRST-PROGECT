@@ -5,7 +5,7 @@ export default function ProductCTA() {
   return (
     <>
       <section className="py-28 bg-[#0b0f14]">
-        <div className="container mx-auto px-6">
+        <div className="container max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}

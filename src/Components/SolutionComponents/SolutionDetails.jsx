@@ -23,7 +23,7 @@ const services = [
 export default function SolutionDetails() {
   return (
     <section className="relative py-32 bg-[#0b0f14] text-white">
-      <div className="container mx-auto px-6 text-center">
+      <div className="container max-w-7xl mx-auto px-6 text-center">
         {/* Title */}
         <motion.span
           initial={{ opacity: 0, y: 20 }}

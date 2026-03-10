@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="shadow-2xl px-4 sm:px-0 py-4 bg-[#111111] fixed start-0 end-0 z-50">
-        <div className="container text-slate-100 rounded-2xl ">
+        <div className="container max-w-7xl text-slate-100 rounded-2xl ">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <img src={logo2} className="w-10 rounded-full" alt="logo" />

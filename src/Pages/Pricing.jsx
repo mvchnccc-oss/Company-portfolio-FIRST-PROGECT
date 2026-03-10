@@ -40,7 +40,7 @@ export default function Pricing() {
   <>
   
     <section className="py-32 bg-[#0b0f14] text-white">
-      <div className="container mx-auto px-6 text-center">
+      <div className="container max-w-7xl mx-auto px-6 text-center">
 
         {/* Hero */}
         <motion.span

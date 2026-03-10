@@ -5,7 +5,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 export default function Contact() {
   return (
     <section className="py-32 bg-[#0b0f14] text-white">
-      <div className="container mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-6">
 
         {/* Header */}
         <motion.div

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function ProductHero() {
   return (
     <section className="relative bg-white py-32 overflow-hidden">
-      <div className="container mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Text */}
           <motion.div

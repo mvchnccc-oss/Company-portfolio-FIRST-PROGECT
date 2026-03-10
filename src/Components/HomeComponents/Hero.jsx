@@ -32,7 +32,7 @@ export default function Hero() {
         backgroundImage: `linear-gradient(rgba(11, 15, 20, 0.85), rgba(11, 15, 20, 0.85) ), url(${hero})`,
       }}
     >
-      <div className="container mx-auto px-6 text-white relative z-10">
+      <div className="container max-w-7xl mx-auto px-6 text-white relative z-10">
         <motion.h1
           variants={container}
           initial="hidden"

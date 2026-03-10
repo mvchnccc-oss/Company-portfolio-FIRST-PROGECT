@@ -14,7 +14,7 @@ export default function SolutionsHero() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/70"></div>
 
-      <div className="relative container mx-auto px-6 text-center text-white">
+      <div className="relative container max-w-7xl mx-auto px-6 text-center text-white">
         <h1 className="text-4xl md:text-6xl font-bold">
           AI-Powered Solutions for Smart Factories
         </h1>

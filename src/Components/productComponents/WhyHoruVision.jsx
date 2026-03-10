@@ -41,7 +41,7 @@ const itemVariants = {
 export default function WhyHoruVision() {
   return (
     <section className="py-28 bg-[#0b0f14] text-white">
-      <div className="container mx-auto px-6 text-center">
+      <div className="container max-w-7xl mx-auto px-6 text-center">
         {/* Heading */}
         <motion.span
           initial={{ opacity: 0 }}

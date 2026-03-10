@@ -5,7 +5,7 @@ export default function AboutHome() {
   return (
     <>
       <section className="py-24 bg-white text-gray-700">
-        <div className="container mx-auto px-6">
+        <div className="container max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="text-[#ff7700] font-semibold uppercase tracking-widest">

@@ -31,7 +31,7 @@ const listItem = {
 export default function KeyCapabilities() {
   return (
     <section className="py-24 bg-white">
-      <div className="container mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Text */}
           <motion.div

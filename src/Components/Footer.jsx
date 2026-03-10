@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#111111] text-gray-300">
       {/* Top CTA */}
-      <div className="container mx-auto px-6 py-16 border-b border-gray-700">
+      <div className="container max-w-7xl mx-auto px-6 py-16 border-b border-gray-700">
         <div className="flex flex-col lg:flex-row gap-6 items-center justify-between">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
             Get Your Free Pilot Right Now
@@ -27,7 +27,7 @@ export default function Footer() {
       </div>
 
       {/* Locations */}
-      <div className="container mx-auto px-6 py-14 border-b border-gray-700">
+      <div className="container max-w-7xl mx-auto px-6 py-14 border-b border-gray-700">
         <div className="grid md:grid-cols-3 gap-10 text-center">
           <div>
             <h4 className="text-xl font-semibold text-white mb-2"></h4>
@@ -70,7 +70,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom */}
-      <div className="container mx-auto px-6 py-10">
+      <div className="container max-w-7xl mx-auto px-6 py-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="flex items-center gap-3">

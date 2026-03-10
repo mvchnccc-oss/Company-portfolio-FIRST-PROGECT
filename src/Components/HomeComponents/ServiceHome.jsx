@@ -55,7 +55,7 @@ export default function ServiceHome() {
 
       {/* Cards */}
       <div className="relative z-20 -mt-20">
-        <div className="container mx-auto px-6">
+        <div className="container max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
