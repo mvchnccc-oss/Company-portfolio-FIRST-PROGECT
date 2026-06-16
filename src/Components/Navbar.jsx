@@ -47,10 +47,7 @@ export default function Navbar() {
                 ))}
               </ul>
 
-              <div className="flex items-center gap-2 md:hidden">
-                <a href="#">
-                  <FaPhone className="text-[#ff7700]" size={18} />
-                </a>
+              <div className="flex items-center md:hidden">
                 <svg
                   onClick={() => settoggeler(!toggeler)}
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +55,7 @@ export default function Navbar() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-6 "
+                  className="size-6"
                 >
                   <path
                     strokeLinecap="round"
@@ -70,9 +67,11 @@ export default function Navbar() {
             </div>
 
             <div className="icon md:block hidden">
-              <button className="p-3 border border-[#ff7700] rounded-full group duration-300 hover:bg-[#ff7700]"><a href="#">
-                <FaPhone className="text-[#ff7700] group-hover:text-white" size={20} />
-              </a></button>
+              <NavLink to="/contact">
+                <button className="px-4 py-2 border border-[#ff7700] rounded-full text-white transition duration-300 hover:bg-[#ff7700] hover:text-white">
+                  Contact Us
+                </button>
+              </NavLink>
             </div>
           </div>
           <ul
@@ -99,6 +98,13 @@ export default function Navbar() {
                 </NavLink>
               </li>
             ))}
+            <li>
+              <NavLink to="/contact" onClick={() => settoggeler(false)}>
+                <button className="w-full py-3 rounded-full border border-[#ff7700] text-white transition duration-300 hover:bg-[#ff7700] hover:text-white">
+                  Contact Us
+                </button>
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>
